@@ -3,5 +3,3 @@ import digital_unit.Area
 import digital_unit.Lenth 
 import digital_unit.Volume 
 import digital_unit.Temperature
-
-print("This is a beta version.")
