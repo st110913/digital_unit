@@ -4,8 +4,8 @@
 这是一个有关**数据的单位**的包,如长度、面积、体积等，可以用它来表示一个数量的单位
 使用示例
 ``` python
-from digital_unit import CentiMeter,MilliMeters
-from digital_unit import Number
+from digital_unit.Lenth import CentiMeter,MilliMeters
+from digital_unit.root import Number
 
 if __name__ == '__main__':
     _1cm = Number(1.0, CentiMeter()) # Create the data. Don't forget the parentheses!
@@ -26,8 +26,8 @@ if __name__ == '__main__':
 This is **a unit of data** related to packages, such as length, area, volume, etc., it can be used to represent a number of units
 Use the sample
 ```python
-from digital_unit import CentiMeter,MilliMeters
-from digital_unit import Number
+from digital_unit.Lenth import CentiMeter,MilliMeters
+from digital_unit.root import Number
 
 if __name__ == "__main__" :
 _1cm = Number(1.0,CentiMeter()) # Create the data. Don 't forget the parentheses.
